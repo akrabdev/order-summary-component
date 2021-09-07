@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  /* width: 100vw; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display";
+}
+
+.card {
+  /* margin-top: 50px; */
+  background-color: white;
+  width: 25%;
+  /* max-width: 80%; */
+  /* min-height: 65%; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  /* padding: 10px; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+#hero {
+  width: 100%;
+  /* height: 30%; */
+  margin-bottom: 3rem;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  font-weight: 900;
+}
+.card-paragraph {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+  color: hsla(214, 4%, 33%, 0.712);
+}
+.plan {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 1.5em;
+  flex-wrap: wrap;
+}
+
+.plan-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.plan-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-grow: 2; */
+}
+
+.plan-name {
+  font-weight: 900;
+  font-size: 0.9em;
+}
+.plan-price {
+  color: hsla(214, 4%, 33%, 0.9);
+  font-size: 0.85em;
+}
+
+.plan-change {
+  font-weight: 700;
+  font-size: 0.8em;
+}
+.plan-icon {
+  /* height: 50%; */
+  margin-right: 0.6rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  /* border: black 3px solid; */
+}
+
+.primary-button {
+  text-decoration: none;
+  color: white;
+  background: hsl(223, 47%, 23%);
+  padding: 0.6rem;
+  margin-bottom: 1.5em;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.secondary-button {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2em;
+}
